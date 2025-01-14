@@ -356,9 +356,10 @@ export default {
                     });
                 }
             } else {
+                // console.log(window.env.ASSET_URL);
                 this.$emit('adding-embed-image', {
                     url: this.selectedImageUrl,
-                    caption: this.selectedImageCaption ?? '',
+                    caption: '',//this.selectedImageCaption ?? '',
                     existingBlot: this.selectedImageBlot,
                     layout: this.selectedImageLayout,
                 });

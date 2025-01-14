@@ -39,6 +39,11 @@
 <script>
     window.Canvas = @json($jsVars);
 </script>
+<script>
+    window.env = {
+        ASSET_URL: "{{ env('ASSET_URL') }}",
+    };
+</script>
 
 <script type="text/javascript" src="{{ mix('js/app.js', 'vendor/canvas') }}"></script>
 </body>

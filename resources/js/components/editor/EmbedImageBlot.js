@@ -16,11 +16,11 @@ class EmbedImageBlot extends BlockEmbed {
 
         node.appendChild(img);
 
-        if (value.caption) {
-            let caption = document.createElement('p');
-            caption.innerHTML = value.caption;
-            node.appendChild(caption);
-        }
+        // if (value.caption) {
+            // let caption = document.createElement('p');
+            // caption.innerHTML = value.caption;
+            // node.appendChild(caption);
+        // }
 
         return node;
     }

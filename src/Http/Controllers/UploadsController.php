@@ -32,7 +32,7 @@ class UploadsController extends Controller
         $path = Canvas::baseStoragePath();
 
         Storage::put($path.'/' . $originalName,(string) file_get_contents($file));
-        return $path.'/' . $originalName;
+        return asset('storage/'.str_replace('public/','',$path)).'/' . $originalName;
     }
 
     /**
