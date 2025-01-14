@@ -137,7 +137,7 @@
                         <div class="col-12" :hidden="!selectedImagesForPond.length && !post.featured_image">
                             <div class="form-group row">
                                 <label for="caption" class="font-weight-bold text-uppercase text-muted small"
-                                    >Caption</label
+                                    >Alt Text</label
                                 >
                                 <input
                                     v-model="post.featured_image_caption"
