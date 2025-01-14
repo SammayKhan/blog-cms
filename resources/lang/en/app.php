@@ -14,7 +14,7 @@ return [
     'cancel_scheduling' => 'Cancel scheduling',
     'canonical_link' => 'Canonical Link',
     'canonical_link_placeholder' => 'Canonical URL of original source',
-    'caption' => 'Caption',
+    'caption' => 'Alt Text',
     'choose_a_username' => 'Choose a username...',
     'click_to_see_insights' => 'Click on a post below to see more detailed insights.',
     'contributor' => 'Contributor',
