@@ -1,10 +1,4 @@
 <p align="center">
-    <a href="https://trycanvas.app">
-        <img src=".github/docs/header.png" alt="Homepage for trycanvas.app">
-    </a>
-</p>
-
-<p align="center">
     <a href="https://github.com/austintoddj/canvas/actions"><img src="https://github.com/austintoddj/canvas/workflows/tests/badge.svg" alt="Build Status"></a>
     <a href="https://packagist.org/packages/austintoddj/canvas"><img src="https://img.shields.io/packagist/dt/austintoddj/canvas" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/austintoddj/canvas"><img src="https://img.shields.io/packagist/v/austintoddj/canvas" alt="Latest Stable Version"></a>
@@ -26,7 +20,7 @@ Canvas is a fully open source package to extend your existing [Laravel](https://
 You may use composer to install Canvas into your Laravel project:
 
 ```bash
-composer require austintoddj/canvas
+composer require muhammad1200/blog-cms-package
 ```
 
 Publish the assets and primary configuration file using the `canvas:install` Artisan command:
