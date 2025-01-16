@@ -1,5 +1,5 @@
 {
-    "name": "austintoddj/canvas",
+    "name": "Muhammad1200/blog-cms-package",
     "description": "A Laravel publishing platform",
     "keywords": [
         "blog",
@@ -11,8 +11,8 @@
     "license": "MIT",
     "homepage": "https://trycanvas.app",
     "support": {
-        "issues": "https://github.com/austintoddj/canvas/issues",
-        "source": "https://github.com/austintoddj/canvas"
+        "issues": "https://github.com/Muhammad1200/blog-cms-package/issues",
+        "source": "https://github.com/Muhammad1200/blog-cms-package"
     },
     "authors": [
         {
